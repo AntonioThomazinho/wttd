@@ -3,3 +3,4 @@
 .idea/
 .wttd/
 *db.sqlite3
+*__pycache__
