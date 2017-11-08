@@ -1,7 +1,8 @@
 # Eventex
 
 Sistema de Eventps encomendado pela Morena.
-
+[![Build Status](https://travis-ci.org/AntonioThomazinho/wttd.svg?branch=master)](https://travis-ci.org/AntonioThomazinho/wttd)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/4ddd454fcd240651b698/test_coverage)](https://codeclimate.com/github/AntonioThomazinho/wttd/test_coverage)
 ## Como desenvolver?
 
 1. Clone o respositório
