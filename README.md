@@ -17,7 +17,7 @@ git clone https://github.com/AntonioThomazinho/wttd.git wttd
 cd wttd
 pyhton -m venv .wttd
 source .wttd/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
