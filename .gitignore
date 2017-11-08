@@ -7,6 +7,4 @@
 __pycache__
 staticfiles
 .ipynb_checkpoints/
-eventex/__pycache__/settings.cpython-36.pyc
-eventex/__pycache__/urls.cpython-36.pyc
-eventex/__pycache__/wsgi.cpython-36.pyc
+
