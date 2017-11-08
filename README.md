@@ -39,8 +39,6 @@ heroku config:set DEBUG=False
 git push heroku master --force
 ```
 
- README.md contrib/ eventex/core/templates/base.html eventex/core/tests/ eventex/subscriptions/tests/ eventex/core/templates/400.html eventex/core/static/css/main.css  eventex/core/templates/403.html eventex/core/templates/404.html eventex/core/templates/500.html eventex/core/tests.py eventex/settings.py eventex/subscriptions/templates/subscriptions/subscription_form.html eventex/subscriptions/tests.py eventex/subscriptions/views.py contrib/
-
 
 
  
