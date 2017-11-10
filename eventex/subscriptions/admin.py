@@ -26,6 +26,8 @@ class SubscriptionModelAdmin(admin.ModelAdmin):
         else:
             msg = '{} inscrições foram marcadas como pagas.'
 
+        self.message_user(request, msg.format(count))
+
     mark_as_paid.short_description = 'Marcar como pago'
 
 admin.site.register(Subscription, SubscriptionModelAdmin)
