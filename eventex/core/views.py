@@ -20,4 +20,3 @@ def talk_list(request):
 
 
 
-eventex/core/admin.py eventex/core/managers.py eventex/core/models.py eventex/core/templates/core/talk_list.html eventex/core/tests/test_model_contact.py eventex/core/tests/test_model_talk.py eventex/core/views.py eventex/subscriptions/apps.py
