@@ -13,8 +13,11 @@ def speaker_detail(request, slug):
 
 def talk_list(request):
     context = {
-        'morning_talks': Talk.objects.filter(start__lt='12:00'),
-        'afternoon_talks': Talk.objects.filter(start__gte='12:00'),
+        'morning_talks': Talk.objects.at_morning(),
+        'afternoon_talks': Talk.objects.at_afternoon(),
     }
     return render(request, 'core/talk_list.html', context)
 
+
+
+eventex/core/admin.py eventex/core/managers.py eventex/core/models.py eventex/core/templates/core/talk_list.html eventex/core/tests/test_model_contact.py eventex/core/tests/test_model_talk.py eventex/core/views.py eventex/subscriptions/apps.py
